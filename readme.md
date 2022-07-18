@@ -10,4 +10,12 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+1. To your local machine, clone the [Anythink Market Repository] (https://github.com/ObelusFamily/Anythink-Market-ggjt3)
+1. [Install Docker] (https://docs.docker.com/get-docker/)
+1. Verify docker is ready by running the following commands in your terminal: `docker -v` and `docker-compose -v`
+1. From the project root directory, run `docker-compose up` to load Anythink's backend and frontend
+1. If Docker is working correctly, the backend should be running and able to connect to your local database
+1. To test this, point your browser to http://localhost:3000/api/ping
+1. If everything is working properly, you’ll be able to create a new user on http://localhost:3001/register
+1. Create a new user and you’ll be able to move to the next task
+
